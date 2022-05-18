@@ -1,0 +1,98 @@
+html {
+    background-image: url("../imageselerhetoseg/hatter_szin_gallery_proba_logo_nelkul.png");
+    font-family: "Century Gothic", sans-serif;
+}
+
+body {
+    text-align: center;
+    max-width: 1920px;
+}
+
+#map {
+    max-height: 400px;
+    /* The height is 400 pixels */
+    max-width: 500px;
+    float: right;
+}
+
+.terkep {
+    display: inline-block;
+}
+
+iframe {
+    width: 450px;
+    height:350px;
+    border:1px solid gray;
+    border-radius: 25px;
+    float: right;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.elerhetosegek {
+    float: left;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px 12px;
+    background-color: #FFE46D;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+.text-box {
+    padding-top: 180px;
+}
+
+.szolgaltatasok-cim {
+    padding-bottom: 50px;
+}
+
+.meyer_logo {
+    position: absolute;
+    top:0;
+    left: 10px;
+}
+
+.sci {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -32px;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 10px 0 0;
+    border-radius: 10px;
+}
+
+.sci li a:hover {
+    background: #fff3cd;
+}
+
+.sci li a img {
+    max-width: 20px;
+    filter: invert(1);
+    mix-blend-mode: difference;
+}

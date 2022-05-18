@@ -1,0 +1,43 @@
+html {
+    background: url("../imagesgallery/hatter_szin_gallery.png") fixed;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.gallery {
+    margin: auto;
+    max-width: 1300px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 350px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.meyer_logo {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.roof-img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: marker;
+}

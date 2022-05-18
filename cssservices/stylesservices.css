@@ -1,0 +1,188 @@
+html {
+    background-image: url("../imageservices/hatter_szin_services.png");
+}
+
+body {
+    margin: auto;
+    max-width: 1920px;
+}
+
+.services {
+    margin: auto;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Century Gothic", sans-serif;
+    max-width: 1190px;
+}
+
+.meyer_logo {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.roof-img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: marker;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    margin-top: 50px;
+}
+
+.container {
+    padding-top: 200px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+    height: 100%;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 550px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    clip-path: circle(500px at center 100px);
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    border-radius: 30px;
+}
+
+.box:hover .imgBx {
+    clip-path: circle(80px at center 100px);
+    transition-delay: 0s;
+    background-image: url("../imageservices/meyer_logo_M.png");
+    background-repeat: no-repeat;
+}
+
+.box:hover .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container .box .content h2 {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
+
+.container .box .content p {
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
+
+.container .box:hover .content  h2 {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.5s;
+}
+
+.container .box:hover .content  p {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.7s;
+}
+
+.first-box {
+    background-image: url("../imageservices/atalakitas.png");
+}
+
+.second-box {
+    background-image: url("../imageservices/csaladi.png");
+}
+
+.third-box {
+    background-image: url("../imageservices/felulvizsgalat.png");
+}
+
+.fourth-box {
+    background-image: url("../imageservices/ipari.png");
+}
+
+.fifth-box {
+    background-image: url("../imageservices/korszerusites.png");
+}
+
+.sixth-box {
+    background-image: url("../imageservices/uj_fogy_mero.png");
+}
+
+.alcim-lakossagi{
+    margin-bottom: 50px;
+}
+
+.alcim-ipari {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/*.lakossagi {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../imageservices/lakossagi_hatter_sotet.png");
+    border-radius: 35px;
+    height: 794px;
+    align-content: space-around;
+}
+
+.ipari {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../imageservices/ipari_hatter_sotet.png");
+    border-radius: 35px;
+    height: 794px;
+    align-content: space-around;
+}
+*/
